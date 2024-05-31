@@ -153,6 +153,6 @@ if __name__ == "__main__":
     parser.add_argument("--port", default=5000, type=int, help="port number")
     args = parser.parse_args()
     model = YOLO('best.pt')
-    app.run(host="0.0.0.0", port=args.port)
+    app.run(host="0.0.0.0", port=8080)
 
 
