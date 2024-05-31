@@ -10,3 +10,5 @@ pygame==2.5.2
 gunicorn==22.0.0
 ultralytics==8.2.2
 werkzeug==3.0.3
+tensorflow
+
