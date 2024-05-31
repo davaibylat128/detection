@@ -1,0 +1,7 @@
+services:
+  - type: web
+    env: python
+    buildCommand: python webapp.py
+    envVars:
+      - key: PORT
+        value: "5000"  # Replace this with your actual port number
